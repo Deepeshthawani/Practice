@@ -5,7 +5,7 @@ public with sharing class MaxOppTriggerHandler {
 
         if(!oppList.isEmpty()){
             for(Opportunity opp : oppList){
-                if(!oldMap = null){
+                if(!oldMap.isEmpty()){
                     Opportunity oldOpp = oldMap.get(opp.id);
 
                 if(oldOpp.AccountId != opp.AccountId){
