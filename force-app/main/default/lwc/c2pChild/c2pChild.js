@@ -8,7 +8,7 @@ export default class C2pChild extends LightningElement {
     }
 
     handleClick(){
-        this.dispatchEvent(new CustomEvent('sendEvent', {
+        this.dispatchEvent(new CustomEvent('sendevent', {
             detail : this.inputText
         }))
     }
