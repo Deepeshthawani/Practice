@@ -1,8 +1,8 @@
-import { LightningElement,api } from 'lwc';
+import { LightningElement} from 'lwc';
 
 export default class C2pParent extends LightningElement {
     receivedData = ''
-    @api handlehandleChildData(event){
+    handlehandleChildData(event){
         this.receivedData = event.detail.value
     }
 
