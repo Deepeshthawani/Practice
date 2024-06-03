@@ -1,0 +1,17 @@
+<template>
+    <lightning-card title="Independent communication using Pub Sub Model">
+        <div class="slds-m-around_medium">
+            <lightning-input 
+              type="text"
+              label="Enter some text"
+              onchange={handleInput}
+            ></lightning-input>
+
+            <lightning-button 
+              variant="base"
+              label="Publish" 
+              onclick={handleClick} 
+            ></lightning-button>
+        </div>
+    </lightning-card>
+</template>
