@@ -1,0 +1,19 @@
+<template>
+    <lightning-card title="Account List">
+        <lightning-button 
+          variant="brand"
+          label="Get 10 Accounts" 
+          onclick={handleClick} 
+        ></lightning-button>
+        <template if:true={accounts}>
+            <lightning-datatable
+                key-field="id"
+                data={accounts}
+                columns={columns}>
+            </lightning-datatable>
+        </template>
+        <template if:true={error}>
+            {error}>
+        </template>
+    </lightning-card>
+</template>
