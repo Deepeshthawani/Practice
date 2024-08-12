@@ -1,0 +1,17 @@
+<template>
+    <lightning-card>
+      <div class="slds-m-around_medium">
+        <lightning-button 
+          variant="brand"
+          label="Get 10 accounts" 
+          onclick={handleClick} 
+        ></lightning-button>
+
+        <lightning-datatable
+          key-field="id"
+          data={accounts}
+          columns={columns}
+        ></lightning-datatable>
+      </div>
+    </lightning-card>
+</template>
