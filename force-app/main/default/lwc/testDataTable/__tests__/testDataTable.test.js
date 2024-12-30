@@ -1,4 +1,4 @@
-import { createElement } from 'lwc';
+import { createElement } from '@lwc/engine-dom';
 import TestDataTable from 'c/testDataTable';
 
 describe('c-test-data-table', () => {

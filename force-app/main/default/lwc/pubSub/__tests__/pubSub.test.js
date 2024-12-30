@@ -1,4 +1,4 @@
-import { createElement } from 'lwc';
+import { createElement } from '@lwc/engine-dom';
 import PubSub from 'c/pubSub';
 
 describe('c-pub-sub', () => {

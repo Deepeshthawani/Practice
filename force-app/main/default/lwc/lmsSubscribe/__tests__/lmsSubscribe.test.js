@@ -1,4 +1,4 @@
-import { createElement } from 'lwc';
+import { createElement } from '@lwc/engine-dom';
 import LmsSubscribe from 'c/lmsSubscribe';
 
 describe('c-lms-subscribe', () => {
