@@ -1,4 +1,4 @@
-import { createElement } from 'lwc';
+import { createElement } from '@lwc/engine-dom';
 import WirePractice from 'c/wirePractice';
 
 describe('c-wire-practice', () => {

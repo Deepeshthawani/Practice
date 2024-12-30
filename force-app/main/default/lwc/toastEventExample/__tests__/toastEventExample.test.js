@@ -1,4 +1,4 @@
-import { createElement } from 'lwc';
+import { createElement } from '@lwc/engine-dom';
 import ToastEventExample from 'c/toastEventExample';
 
 describe('c-toast-event-example', () => {

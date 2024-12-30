@@ -1,4 +1,4 @@
-import { createElement } from 'lwc';
+import { createElement } from '@lwc/engine-dom';
 import TestLWC from 'c/testLWC';
 
 describe('c-test-lwc', () => {

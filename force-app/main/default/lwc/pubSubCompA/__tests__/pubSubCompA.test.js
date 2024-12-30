@@ -1,4 +1,4 @@
-import { createElement } from 'lwc';
+import { createElement } from '@lwc/engine-dom';
 import PubSubCompA from 'c/pubSubCompA';
 
 describe('c-pub-sub-comp-a', () => {

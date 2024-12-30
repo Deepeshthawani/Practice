@@ -1,4 +1,4 @@
-import { createElement } from 'lwc';
+import { createElement } from '@lwc/engine-dom';
 import NavigationLWC from 'c/navigationLWC';
 
 describe('c-navigation-lwc', () => {

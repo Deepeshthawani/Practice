@@ -1,4 +1,4 @@
-import { createElement } from 'lwc';
+import { createElement } from '@lwc/engine-dom';
 import P2cParent from 'c/p2cParent';
 
 describe('c-p2-c-parent', () => {
